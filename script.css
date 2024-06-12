@@ -12,6 +12,11 @@ text-align: center;
 padding: 14px;
 text-decoration: none;
 }
+
+.container{
+    width:100%;
+    padding:10px;
+}
 .navbars a:hover {
     background-color:plum;
     color: purple;
