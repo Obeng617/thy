@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="aboutus.js" defer ></script>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+header{
+    background-image:url(header3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+height: 150px;
+
+
+}
+.logo {
+position:absolute ;
+top: 68px;
+left: 25px;
+width: 130px;
+border-radius: 80%;
+}
+.navbars {
+overflow: hidden;
+}
+.navbars a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px;
+text-decoration: none;}
+
+.navbars a:hover {
+    background-color:purple;
+    color: white;
+    border-radius: 5px;
+}
+.navbars a.active {
+    background-color: purple;
+    color: white;
+}
+@media screen and (max-width:600px){
+.navbars a{
+float:none;
+width: 100%;
+ }
+}
+.logo {
+    position:absolute ;
+    top: 68px;
+    left: 25px;
+    width: 130px;
+    border-radius: 80%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  color: black;
+  font-weight:bolder;
+  font-style: italic;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+color: purple;
+font-style: italic;
+}
+h1:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: plum;
+color:purple;
+}
+
+
+header{
+  padding: 20px; 
+  background-color: #f4f4f4;
+}
+
+nav ul {
+list-style-type:none;
+margin: 0;  
+padding: 0;
+}
+
+nav ul li {
+display:inline;
+margin-right: 10px;
+color: #4caf50;
+}
+
+nav ul li a {
+text-decoration: none;  
+color:purple;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 20px;
+}
+
+.features {
+display: flex;
+justify-content: space-between;
+}
+
+.feature {
+width: 30%;
+}
+.service-list {
+  list-style:none;
+  display:block;
+  gap: 20px;
+  
+}
+.service-list:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.services{
+  width: 50%;
+  position: relative;
+  animation: moveUp 1s forwards;
+}
+.services h2 {
+  padding-left: 200px;
+  
+}
+.service h2:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.service-list li {
+  overflow: auto;
+  display: inline;
+  margin-right: 10px;
+  
+}
+.service-list li:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.service-list img {
+  width: 120px;
+  height: 120px;
+  margin-right:  10px; 
+  border-radius: 5px;
+  display:inline;
+
+
+ 
+}
+.service-list img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.contact  {
+text-align: center;
+}
+.contact:hover{
+  scale: 1.2;
+  cursor: pointer;
+}
+h2{
+  display: block;
+  clear: both;
+  margin: auto;
+  text-align: center;
+}
+h2:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+footer {
+   background-color: plum;
+
+   display: flex;
+   border-radius: 10px;
+    justify-content: center;
+    gap: 10px;
+padding-inline: 2px;
+ }
+ footer a {
+    margin: 5px;
+    padding-inline: 2px;
+ }
+ footer a img {
+width: 50px !important;
+ height: 50px !important;
+ object-fit: cover;
+border-radius: 10px;
+ margin-right: 10px;
+padding-inline: 2px;
+ }
+footer a:hover {
+background-color:purple;
+   
+}
+
+  
+.feature {
+  float:left;
+  width: 50%;
+  border-right: 5px solid purple;
+  padding-left: 10px;
+}
+hr{
+  width: 10% solid purple;
+  padding-left: 300px;
+  height: 3PX;
+  background-color: purple;
+}
+.container {
+  display: flex;
+}
+</style>
+</head>
+<body>
+       
+<header>
+
+<div class="navbars">
+            
+ <a href="script.html" class="active">Home</a>
+<a href="Contactus.html" target="_blank">Contact Us </a>
+<a href="aboutus.html">about</a>
+<img class="logo" img src="emmyland.jpg"/>
+</div>
+        
+
+<h1>About Us</h1>
+
+          
+
+</header>
+
+<section id="home">
+<h1>Welcome to Emmyland Imppressions Salon!</h1>
+<p>Acutely groomed for success, where hairstylists create trendsetting styles that resonate with discerning clients.</p>
+</section>
+
+<section id="about">
+<h2>About Emmyland Imppressions Salon</h2>
+<p>Established in 2015, Modern Hair Salon is a pioneer in delivering unparalleled client experiences and hairstyling services.</p>
+</section>
+
+<div class="container">
+<div class="feature">
+  <hr>
+<h3>World-Class Services</h3><hr>
+<p>Experience our highly-skilled hairstylists, who use the finest products and techniques to craft exceptional styles.</p>
+</div>
+
+<div class="feature"> 
+  <hr>
+<h3>Cutting-Edge Technologies</h3><hr>
+<p>We are committed to providing the best tools and equipment to our hairstylists, ensuring that your experience is seamless and stress-free.</p>
+</div>
+
+<div class="feature">
+  <hr>
+<h3>Continuous Education</h3>
+<hr>
+<p>Our hairstylists are passionate about staying current with industry trends and best practices, ensuring that your visit is an unforgettable experience.</p>
+</div>
+</div>
+
+<div class="services">
+<h2>Services</h2>    
+<ul class="service-list">
+<li>Blow Dry</li>
+<img src="blowdry.jpg">
+<li>pixel cut</li>
+<img src="cut.jpg" >
+<li>ponytail</li>
+<img src="ponytail.jpg"> 
+<li>Braids</li>
+<img src="braids.jpg">
+<li>Afro</li>
+<img src="afro.jpg">
+<li>...And many more!</li></ul>      
+</div><br><br>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>To make an appointment or learn more about our services, please contact us via <a href="tel:+233541736173"> +233541736173</a> or send us an email at <a href="malito:emmyland931@gmail.com">emmyland931@gmail.com</a></p>
+</section>
+</div>
+
+<footer >
+  <p>facebook:@Emmyland Impressions</p>
+<a href="https://www.facebook.com/emmylandimpressions>"><img src="facebook.JPG" width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+
+>    <p>instagram:@Emmyland Imppressions</p>
+<a href="https://www.instagram.com/Emmyland Imppressions"><img src="instagram.JPG" width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+
+<p> <a href="tel:+233541736173">Call us on whatsaap:+233541736173 </a> </p>
+<a href="https://www.whatsaap.com/Emmyland Imppressions"><img src="whatsaap.JPG"  width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+</footer>
+          
+</body>
+</html>

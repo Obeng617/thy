@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+     <link rel="stylesheet" type="text/css" href="contactus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+    body {
+        background-color: plum;
+        border: 30px solid purple;
+        border-radius: 5px;
+        
+    }
+.header {
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    
+     
+}
+
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: plum;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+ .contact-form h2 {
+    text-align: center;
+    color: purple;
+ }
+.contact-form h2:hover{
+    scale: 1.1;
+  cursor: pointer; 
+}
+ .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: purple;
+ }
+.contact-form input[type="text"],
+ .contact-form input [type="submt"],
+.contact-form input[type="email"],
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 5px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    resize: none;
+    width: 170px;
+}
+
+.contact-form input[type="submit"]{
+    background-color: plum;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+.contact-form input[type="submit"]:hover{
+    background-color:purple;
+}
+ ps {
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+    border-radius: 5px;
+    background-color: plum;
+    font-style: italic;
+    backdrop-filter: blur(60px);
+    color: purple;
+
+}
+ps:hover{
+    scale: 1.1;
+  cursor: pointer; 
+}
+.logo {
+    position:absolute ;
+    top: 45px;
+    left: 40%;
+    width: 110px;
+    border-radius: 80%;
+}
+.logo:hover{
+    scale: 1.1;
+  cursor: pointer; 
+}
+.navbars {
+    overflow: hidden;
+}
+.navbars a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 5px;
+text-decoration: none;
+}
+.navbars a:hover {
+    background-color:purple;
+    color: white;
+scale: 1.2;
+}
+.navbars a.active :hover{
+    background-color: purple;
+    color: black;
+    scale: 1.1;
+}
+@media screen and (max-width:600px){
+    .navbars a{
+        float:none;
+        width: 100%;
+    }
+}
+p{
+    color: purple;
+    font-size: 40px;
+}
+h1{
+    color: purple;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.video-container {
+    display: flex;
+    border: 3px solid purple;
+    border-radius: 5px;
+    background-color: plum;
+    padding: 10spx;
+}
+h2 {
+    text-align: center;
+    margin:0 auto;
+    color: purple;
+}
+@keyframes marquee{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+h2 {
+    animation: marquee 50s linear infinite;
+    color: purple;
+    font: size 30px;
+}
+ footer {
+   background-color: plum;
+   display: flex;
+   border-radius: 1px;
+    justify-content: center;
+    gap:5px;
+padding-inline: 2px;
+ }
+ footer a {
+    margin: 5px;
+    padding-inline: 2px;
+ }
+ footer a img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-inline: 2px;
+    scale: 1.1;
+    border: 3px solid black;
+ }
+footer a:hover {
+    background-color:purple;
+   scale: 1.1;
+}
+p{
+    color: purple;
+    font-size: 20px;
+    text-align: left;
+font-weight: bolder;
+}
+p:hover{
+    scale: 1.1;
+  cursor: pointer;  
+}
+    </style>
+</head>
+<body>
+    
+    
+<div class="header">
+    
+    <div class="navbars">
+        <a href="script.html">Home</a>
+        <a href="Contactus.html" target="_blank">Contact Us</a>
+        <a href="aboutus.html">about</a>
+    </div>
+    <h1>welcome To Emmyland Imppressions</h1>
+    <p>Contact us</p>
+    <img class="logo" img src="emmyland.jpg"/>
+</div>
+<marquee behavior="scroll" drirection="left">
+<h2> A Glimps Of Some Of Our Handicraft !</h2s>
+</marquee>
+
+<div class="video-container">
+<video width="300" height="200" controls><source src="VID-20231221-WA0002.mp4"></video>
+<video width="300" height="200" controls><source src="VID-20231221-WA0005.mp4"></video><br>
+<video width="300" height="200" controls><source src="VID-20231221-WA0003.mp4"></video><br>
+<video width="300" height="200" controls><source src="VID-20231221-WA0007.mp4"></video><br>
+<video width="300" height="200" controls><source src="VID-20231221-WA0004.mp4"></video><br>
+</div>
+<ps>Leave Emmyland Imppressions An Email Now!</ps>
+<div class="contact-form">
+    <h3>Get in touch with us </h3>
+    <form>
+        <form action="malito:receipient@emmyland931@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <input type="submit" value="Submit" >
+   <script>
+
+   </script>
+    
+    
+</div>
+</form><br>
+    <footer >
+        <p>facebook:@emmylandimpressions</p>
+  <a href="https://www.facebook.com/emmylandimpressions>"><img src="facebook.JPG" width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+  
+>    <p>instagram:@Emmyland Imppressions</p>
+    <a href="https://www.instagram.com/Emmyland Imppressions"><img src="instagram.JPG" width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+
+   <p> @whatsaap:+233541736173</p>
+    <a href="https://www.whatsaap.com/Emmyland Imppressions"><img src="whatsaap.JPG"  width="100px" height="100px" style="border-radius: 10px;" ></a><br>
+   
+</footer>
+<footer >
+<p>
+    <a href="https://www.instagram.com/Emmyland Imppressions">instagram</a>
+    <p>&copy; 2021 Emmyland Impressions Salon> All righs reserved</p>
+    <p>"Bringing The Best To Anyone We Touch"</p>
+    <p>Locate Us @Kisseiman, Along John Nii Owoo Street</p>
+</footer>
+</p>
+</body>
+</html>

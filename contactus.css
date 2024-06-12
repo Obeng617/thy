@@ -1,0 +1,25 @@
+body {
+font-family: Ariel,sans-serif;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.form-group i {
+position: absolute;
+left: 15px;
+top: 20px;
+color: #007bff;
+}
+
+.form-group input {
+    padding-left: 40px;
+}
+
+
+
